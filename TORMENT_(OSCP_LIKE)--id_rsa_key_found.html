@@ -1,0 +1,8 @@
+<!doctype html><html>
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <title>id_rsa key found</title>
+      <meta name="generator" content="CherryTree">
+      <link rel="stylesheet" href="res/styles3.css" type="text/css" />
+    </head>
+    <body><div class='page'><h1 class='title'>id_rsa key found</h1><br/>Within the FTP server there was a .ssh section<br />within there we found an id_rsa key that was encrypted, no username yet<br />starting trying to decrypt the key<br /><br />		┌──(kali㉿kali)-[~/Desktop/OSCP_Like_Boxes/Torment]<br />└─$ python /usr/share/john/ssh2john.py id_rsa &gt; hash<br />                                                                                                                                                                        <br />┌──(kali㉿kali)-[~/Desktop/OSCP_Like_Boxes/Torment]<br />└─$ john hash       <br /><br /></div></body></html>

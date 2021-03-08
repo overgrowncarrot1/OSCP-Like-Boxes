@@ -1,0 +1,8 @@
+<!doctype html><html>
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <title>CUPS Website</title>
+      <meta name="generator" content="CherryTree">
+      <link rel="stylesheet" href="res/styles3.css" type="text/css" />
+    </head>
+    <body><div class='page'><h1 class='title'>CUPS Website</h1><br/>Going to the 10.10.10.11:631 I found a cups website<br /><br />I did not find anything too useful in there, with the clickable links<br /><br />Looking at the top we see printers, we know that we already did something with tormented printers so lets head there<br /><br />We see a list of what could be usernames<br /><br />I wrote down all the usernames and used a script to make them capital on each first letter<br /><br />┌──(kali㉿kali)-[~/Desktop/OSCP_Like_Boxes/Torment]<br />└─$ cp users.txt capital.txt   <br /><br />┌──(kali㉿kali)-[~/Desktop/OSCP_Like_Boxes/Torment]<br />└─$ sed -e &#39;s/^./\U&amp;/&#39; capital.txt<br /><br />I then copied those and added them to users.txt<br /><br />┌──(kali㉿kali)-[~/Desktop/OSCP_Like_Boxes/Torment]<br />└─$ cat users.txt           <br />albert<br />cherrit<br />david<br />edmund<br />ethan<br />eva<br />genevieve<br />govindasamy<br />jessica<br />kenny<br />patrick<br />qinyi<br />qui<br />roland<br />sara<br />Albert<br />Cherrit<br />David<br />Edmund<br />Ethan<br />Eva<br />Genevieve<br />Govindasamy<br />Jessica<br />Kenny<br />Patrick<br />Qinyi<br />Qui<br />Roland<br />Sara<br /><br /></div></body></html>
